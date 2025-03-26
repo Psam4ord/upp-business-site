@@ -9,10 +9,9 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" ">
-      <div className=" flex flex-col w-full h-auto px-6 py-4 bg-gray-800 text-white fixed bottom-0 left-0  p-4 ">
-        {/* FAQ */}
-        <span className=" flex space-x-2 text-gray-400  no-underline list-none hover:underline hover:text-white ">
+    <footer className=" flex flex-col w-full h-auto px-6 py-4 bg-gray-800 text-white fixed bottom-0 left-0  p-4 " >
+              {/* FAQ */}
+        {/* <span className=" flex space-x-2 text-gray-400  no-underline list-none hover:underline hover:text-white ">
           <a href="#">
             <li className=" no-underline space-x-4 hover:text-white text-gray-400">
               FAQ
@@ -24,9 +23,11 @@ const Footer = () => {
               Support
             </li>
           </a>
-        </span>
+        </span> */}
 
         {/* pages */}
+
+        
         <span className="flex no-underline list-none  justify-center space-x-4 ">
           <a
             href="#"
@@ -58,19 +59,19 @@ const Footer = () => {
         <span className="flex flex-wrap justify-center space-x-4">
           <a href="#">
             <li className=" flex space-x-2 items-center text-gray-400 no-underline list-none  hover:text-white">
-              <FaXTwitter size={12} /> 
+              <FaXTwitter size={12} />
             </li>
           </a>
 
           <a href="#">
             <li className="text-gray-400 no-underline list-none  hover:text-white">
-              <FaInstagram size={12} /> 
+              <FaInstagram size={12} />
             </li>
           </a>
 
           <a href="#">
             <li className="text-gray-400 no-underline list-none  hover:text-white">
-              <FaTiktok size={12} /> 
+              <FaTiktok size={12} />
             </li>
           </a>
 
@@ -82,7 +83,7 @@ const Footer = () => {
 
           <a href=" #">
             <li className="text-gray-400 no-underline list-none  hover:text-white">
-              <FaFacebook size={12} /> 
+              <FaFacebook size={12} />
             </li>
           </a>
         </span>
@@ -94,11 +95,12 @@ const Footer = () => {
 
         {/* brand name and date */}
         <hr className=" w-full  bg-[#ccc]  " />
-        <p className=" flex !w-full font-serif  justify-center"> Universal Printing Press &#64; {new Date().getFullYear()}.
+        <p className=" flex !w-full font-serif  justify-center">
+          {" "}
+          Universal Printing Press &#64; {new Date().getFullYear()}.
         </p>
-          <p className="flex justify-center">All rights reserved.</p>
-        
-      </div>
+        <p className="flex justify-center">All rights reserved.</p>
+      
     </footer>
   )
 }

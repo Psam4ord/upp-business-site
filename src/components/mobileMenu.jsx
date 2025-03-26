@@ -29,7 +29,7 @@ const MobileMenu = () => {
         className=" md:hidden p-2 text-3xl text-gray-800 cursor-pointer transition-all duration-300 hover:text-gray-600"
         aria-label="Toggle Menu"
       >
-        {isOpen ? <MdOutlineCancel className=" bg-red-400 " /> : <FaBars />}
+        {isOpen ? <MdOutlineCancel  /> : <FaBars />}
       </button>
 
       {/* Toggle Button */}
