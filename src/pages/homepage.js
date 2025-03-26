@@ -1,6 +1,5 @@
 import React from "react"
 import ButtonComponent from "../components/button"
-import { BsJustify } from "react-icons/bs"
 
 const MainPage = () => {
   return (

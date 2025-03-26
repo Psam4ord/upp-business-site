@@ -1,5 +1,5 @@
 import React from "react"
-import MobileMenu from "../components/mobileMenu"
+import MobileMenu from "../mobileMenu"
 
 const NavBar = () => {
   return (
