@@ -4,6 +4,8 @@ const CoreValues = () => {
   return (
     <div>
 
+      <h1>Core values </h1>
+
         
     </div>
   )
