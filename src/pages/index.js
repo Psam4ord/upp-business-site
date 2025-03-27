@@ -1,20 +1,19 @@
 import * as React from "react"
-import MainPage from "./homepage"
+import HomePage from "./homepage.js"
 import Layout from "../components/layout/LayOut.jsx"
-import ContactInfo from "../components/helpers/ContactInfo.jsx"
 import Seo from "../components/seo"
 import AboutPage from "./about.js"
+import { HiPaintBrush } from "react-icons/hi2"
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => {
   return (
-
     <>
-    <AboutPage />
+      <Layout>
+        <AboutPage />
+        {/* <HomePage /> */}
+      </Layout>
     </>
-    // <Layout>
-    //   <MainPage />
-    // </Layout>
   )
 }
 

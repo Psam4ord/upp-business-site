@@ -1,7 +1,7 @@
 import React from "react"
 import ButtonComponent from "../components/button"
 
-const MainPage = () => {
+const HomePage = () => {
   return (
     <div
       className=" md:bg-white flex flex-col w-full min-h-screen 
@@ -52,23 +52,12 @@ const MainPage = () => {
           Brand yourselve with us
         </p>
       </div>
-      {/* Tag 3 
-      <div
-        className=" inset-x-0 bottom-0 text-black w-40 h-2/5
-                     skew-x-6 skew-y-12 mt-16  bg-gray-200  rounded-md justify-center"
-      >
-        <p className=" md:hidden  flex w-full font-serif italic text-end rounded-md  p-2">
-          Brand yourselve with us
-        </p>
-      </div> */}
-
       <div className="flex  flex-wrap bottom-0 left-0 w-full fixed justify-center py-5 text-white bg-black ">
         <p className="font-medium">
           Universal Printing press &#64; {new Date().getFullYear()}
         </p>
         <p className="flex  capitalize w-full justify-center pt-2 italic ">
           <a href="#" className="  hover:text-[#ccc]">
-            {" "}
             privacy policy
           </a>
         </p>
@@ -77,4 +66,4 @@ const MainPage = () => {
   )
 }
 
-export default MainPage
+export default HomePage
